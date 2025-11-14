@@ -3,11 +3,12 @@ void verifiermotdepasse(String mp) {
     throw Exception("mot de pass court");
   }
 }
+
 void main() {
   try {
     verifiermotdepasse("3421");
     print("mot de pass valid ");
   } catch (a) {
-    print("erreur : $a")
+    print("erreur : $a");
   }
 }
